@@ -13,10 +13,38 @@
 				<div>首页</div>
 			</template>			
 		</tab-bar-item>
-		<tab-bar-item path="/about">
+		<tab-bar-item path="/category">
+			<template v-slot:iconImg>
+				<img src="@/assets/images/tabbar/category.png" alt="">
+			</template>
+			<template v-slot:iconImg_active>
+				<img src="@/assets/images/tabbar/category_active.png" alt="">
+			</template>
 			<template v-slot:iconText>
-				<div>关于</div>
-			</template>			
+				<div>Category</div>
+			</template>					
+		</tab-bar-item>
+		<tab-bar-item path="/cart">
+			<template v-slot:iconImg>
+				<img src="@/assets/images/tabbar/cart.png" alt="">
+			</template>
+			<template v-slot:iconImg_active>
+				<img src="@/assets/images/tabbar/cart_active.png" alt="">
+			</template>
+			<template v-slot:iconText>
+				<div>Cart</div>
+			</template>					
+		</tab-bar-item>
+		<tab-bar-item path="/profile">
+			<template v-slot:iconImg>
+				<img src="@/assets/images/tabbar/profile.png" alt="">
+			</template>
+			<template v-slot:iconImg_active>
+				<img src="@/assets/images/tabbar/profile_active.png" alt="">
+			</template>
+			<template v-slot:iconText>
+				<div>Profile</div>
+			</template>					
 		</tab-bar-item>
 	</tab-bar>	
 	</div>

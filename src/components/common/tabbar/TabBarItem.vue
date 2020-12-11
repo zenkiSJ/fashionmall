@@ -55,7 +55,7 @@ export default {
 	}
 
 	.icon_text{
-		color: red;
+		color: yellow;
 	}	
 	
 </style>
