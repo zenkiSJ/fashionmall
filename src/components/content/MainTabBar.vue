@@ -4,10 +4,10 @@
 		<tab-bar>
 		<tab-bar-item path="/home" activeColor="blue">
 			<template v-slot:iconImg>
-				<img src="@/assets/images/tabbar/home.png" alt="">
+				<img src="@/assets/images/tabbar/home.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconImg_active>
-				<img src="@/assets/images/tabbar/home_active.png" alt="">
+				<img src="@/assets/images/tabbar/home_active.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconText>
 				<div>首页</div>
@@ -15,10 +15,10 @@
 		</tab-bar-item>
 		<tab-bar-item path="/category">
 			<template v-slot:iconImg>
-				<img src="@/assets/images/tabbar/category.png" alt="">
+				<img src="@/assets/images/tabbar/category.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconImg_active>
-				<img src="@/assets/images/tabbar/category_active.png" alt="">
+				<img src="@/assets/images/tabbar/category_active.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconText>
 				<div>Category</div>
@@ -26,10 +26,10 @@
 		</tab-bar-item>
 		<tab-bar-item path="/cart">
 			<template v-slot:iconImg>
-				<img src="@/assets/images/tabbar/cart.png" alt="">
+				<img src="@/assets/images/tabbar/cart.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconImg_active>
-				<img src="@/assets/images/tabbar/cart_active.png" alt="">
+				<img src="@/assets/images/tabbar/cart_active.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconText>
 				<div>Cart</div>
@@ -37,10 +37,10 @@
 		</tab-bar-item>
 		<tab-bar-item path="/profile">
 			<template v-slot:iconImg>
-				<img src="@/assets/images/tabbar/profile.png" alt="">
+				<img src="@/assets/images/tabbar/profile.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconImg_active>
-				<img src="@/assets/images/tabbar/profile_active.png" alt="">
+				<img src="@/assets/images/tabbar/profile_active.png" alt="" class="icon_img">
 			</template>
 			<template v-slot:iconText>
 				<div>Profile</div>
@@ -63,3 +63,13 @@ export default {
 	}		
 }
 </script>
+
+<style scoped>
+.icon_img{
+		width: 26px;
+		height: 26px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		vertical-align: middle;
+	}
+</style>
